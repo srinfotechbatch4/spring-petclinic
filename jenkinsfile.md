@@ -1,3 +1,15 @@
- this is jenkinsfile
+ pipeline{
  
- new commits
+ agent any
+ 
+ stages{
+ 
+ stage("clone"){
+ 
+ steps{
+ 
+ //write code
+ }
+ }
+ }
+ }
